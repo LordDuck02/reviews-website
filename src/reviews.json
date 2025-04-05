@@ -1,0 +1,37 @@
+[
+  {
+    "review_id": 1,
+    "author": "Johnathan Smith",
+    "image_link": "https://randomuser.me/api/portraits/men/1.jpg",
+    "job": "Software Engineer",
+    "review_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod, purus sit amet scelerisque placerat, metus felis aliquam leo, non dictum purus dui id neque. Proin venenatis nisi sit amet lectus condimentum, in venenatis orci vehicula."
+  },
+  {
+    "review_id": 2,
+    "author": "Emily Brown",
+    "image_link": "https://randomuser.me/api/portraits/men/2.jpg",
+    "job": "Graphic Designer",
+    "review_info": "Nullam auctor feugiat risus, a venenatis lorem auctor sit amet. Vivamus ac eros in nunc malesuada gravida non id augue. Curabitur sit amet mollis eros, ac lacinia libero. Aenean tempor, velit non condimentum volutpat, leo elit malesuada turpis."
+  },
+  {
+    "review_id": 3,
+    "author": "Sophia Lee",
+    "image_link": "https://randomuser.me/api/portraits/women/1.jpg",
+    "job": "Product Manager",
+    "review_info": "Fusce tincidunt est felis, vel lacinia justo maximus sed. Sed ac lectus id tortor luctus tempor at sed lectus. Vestibulum gravida augue et diam ultricies, id volutpat turpis laoreet. Nam id justo mauris. Sed malesuada orci a velit iaculis pretium."
+  },
+  {
+    "review_id": 4,
+    "author": "Michael Johnson",
+    "image_link": "https://randomuser.me/api/portraits/women/2.jpg",
+    "job": "Marketing Specialist",
+    "review_info": "In vehicula libero id augue lacinia, vitae consequat mi posuere. Integer vehicula vehicula arcu, at tempor purus auctor a. Etiam maximus, elit ut tincidunt euismod, lorem felis tempus augue, non vulputate sem risus nec lorem."
+  },
+  {
+    "review_id": 5,
+    "author": "James Williams",
+    "image_link": "https://randomuser.me/api/portraits/men/3.jpg",
+    "job": "Data Scientist",
+    "review_info": "Cras gravida magna id metus interdum, ut tincidunt lorem consectetur. Nulla at convallis velit, sit amet scelerisque velit. Sed non justo ut libero vulputate venenatis. Donec sit amet purus sollicitudin, tincidunt risus vitae, tincidunt neque."
+  }
+]

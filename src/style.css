@@ -1,0 +1,128 @@
+:root {
+    --neon-red: #D22730;
+    --dark-hover: #c4c3c3;
+    --neon-blue: #4C9EFF;
+    --background-dark: #101018;
+    --text-light: #c5c5c5;
+    --img-border: #cccbcb;
+    --glass-bg: rgba(16, 16, 16, 0.9);
+    --glass-bg2: rgba(12, 18, 29, 0.75);
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(158deg, rgb(193, 192, 234) 0%, rgb(226, 219, 232) 0%, rgb(167, 165, 180) 40%, rgb(203, 203, 210) 89%, rgba(203, 203, 210) 100%);
+    font-family: "Mona-Space Krypton", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.underline {
+    position: relative;
+    padding: .2rem;
+    background: var(--neon-blue);
+    margin-bottom: 10px;
+    top: -20%;
+    border-radius: 10px;
+}
+
+.review {
+    padding: 1rem;
+    background: rgba(210, 210, 225, 0.84);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 36rem;
+    text-wrap: wrap;
+    height: auto;
+}
+
+.review p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.review-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#job {
+    font-size: 1.2rem;
+    color: #316eef;
+}
+
+img {
+    border: 1px solid var(--glass-bg2);
+    border-radius: 10rem;
+    width: 40vw;
+    height: 40vw;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+h4, #info {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .review {
+        width: 90%;
+    }
+
+    img {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    #job {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    #job {
+        font-size: 0.9rem;
+    }
+}
